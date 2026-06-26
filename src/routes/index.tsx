@@ -15,10 +15,10 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Portfolio — Finance × Data & AI · MSc Apprenticeship" },
-      { name: "description", content: "Premium portfolio of a Finance, Audit & Data Analytics student transitioning toward Data Management & AI for Business. Open to a one-year apprenticeship in Paris." },
-      { property: "og:title", content: "Portfolio — Finance × Data & AI" },
-      { property: "og:description", content: "From financial audit rigor to data intelligence — open to a one-year apprenticeship." },
+      { title: "Nada Boukhayar — Finance × Data & IA · Alternance MSc" },
+      { name: "description", content: "Portfolio premium de Nada Boukhayar, étudiante en Finance, Audit & Data Analytics en transition vers le Data Management & l'IA pour le business. Ouverte à une alternance d'un an à Paris." },
+      { property: "og:title", content: "Nada Boukhayar — Finance × Data & IA" },
+      { property: "og:description", content: "De la rigueur de l'audit financier à l'intelligence des données — ouverte à une alternance d'un an." },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
