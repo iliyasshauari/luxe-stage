@@ -73,23 +73,23 @@ export function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal>
-          <SectionLabel icon={Sparkles}>Open to one-year apprenticeship · 2025</SectionLabel>
+          <SectionLabel icon={Sparkles}>Ouverte à une alternance d'un an · 2025</SectionLabel>
         </Reveal>
 
         <div className="mt-8 grid md:grid-cols-[1.4fr_1fr] gap-12 items-center">
           <div>
             <Reveal delay={0.05}>
               <h1 className="text-5xl md:text-7xl leading-[1.02] font-normal">
-                <span className="text-foreground">Finance discipline.</span>
+                <span className="text-foreground">Rigueur financière.</span>
                 <br />
-                <span className="text-gradient italic">Data intuition.</span>
+                <span className="text-gradient italic">Intuition data.</span>
               </h1>
             </Reveal>
             <Reveal delay={0.15}>
               <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
-                MSc Data Management & AI for Business — bridging financial audit rigor with the
-                analytical power of modern data tools. Building decision systems that turn numbers
-                into strategy.
+                MSc Data Management & AI for Business — au croisement de la rigueur de l'audit
+                financier et de la puissance analytique des outils data modernes. Concevoir des
+                systèmes de décision qui transforment les chiffres en stratégie.
               </p>
             </Reveal>
             <Reveal delay={0.25}>
@@ -99,13 +99,13 @@ export function Hero() {
                   className="group inline-flex items-center gap-2 rounded-full bg-[var(--navy)] px-6 py-3.5 text-sm font-medium text-[var(--primary-foreground)] shadow-elegant hover:shadow-glow transition-all"
                 >
                   <Download className="h-4 w-4" />
-                  Download CV
+                  Télécharger le CV
                 </a>
                 <a
                   href="#contact"
                   className="group inline-flex items-center gap-2 rounded-full glass px-6 py-3.5 text-sm font-medium hover:translate-y-[-2px] transition-all"
                 >
-                  Contact me
+                  Me contacter
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </a>
               </div>
@@ -124,7 +124,7 @@ export function Hero() {
             <div className="relative mx-auto max-w-sm">
               <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[var(--electric)]/30 to-[var(--emerald-accent)]/30 blur-2xl" />
               <div className="relative glass rounded-[2rem] p-3 shadow-elegant">
-                <div className="aspect-[4/5] rounded-[1.5rem] bg-gradient-to-br from-[var(--navy)] to-[var(--electric)] flex items-end p-6 overflow-hidden">
+                <div className="relative aspect-[4/5] rounded-[1.5rem] bg-gradient-to-br from-[var(--navy)] to-[var(--electric)] flex items-end p-6 overflow-hidden">
                   <svg className="absolute inset-0 h-full w-full opacity-20" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -139,18 +139,6 @@ export function Hero() {
                       Finance × Data
                     </div>
                   </div>
-                </div>
-                <div className="grid grid-cols-3 gap-2 p-3 text-center">
-                  {[
-                    { label: "Internships", value: "3+" },
-                    { label: "Tools", value: "10+" },
-                    { label: "Languages", value: "3" },
-                  ].map((s) => (
-                    <div key={s.label} className="rounded-xl bg-secondary/60 p-3">
-                      <div className="text-lg font-semibold">{s.value}</div>
-                      <div className="text-[10px] uppercase tracking-wider text-muted-foreground">{s.label}</div>
-                    </div>
-                  ))}
                 </div>
               </div>
             </div>
@@ -167,27 +155,28 @@ export function About() {
   return (
     <section id="about" className="py-28 md:py-36">
       <div className="mx-auto max-w-5xl px-6">
-        <Reveal><SectionLabel icon={Sparkles}>About</SectionLabel></Reveal>
+        <Reveal><SectionLabel icon={Sparkles}>À propos</SectionLabel></Reveal>
         <Reveal delay={0.05}>
           <h2 className="mt-6 text-4xl md:text-6xl font-normal leading-[1.05]">
-            From balance sheets <span className="text-gradient italic">to intelligent systems.</span>
+            Des bilans comptables <span className="text-gradient italic">aux systèmes intelligents.</span>
           </h2>
         </Reveal>
         <div className="mt-10 grid md:grid-cols-2 gap-10 text-lg leading-relaxed text-muted-foreground">
           <Reveal delay={0.1}>
             <p>
-              My journey began in classrooms in Tangier, in front of accounting ledgers and audit
-              workpapers. Numbers fascinated me — not as figures, but as the language a company
-              uses to describe itself. At INSEEC Grande École, I deepened that fluency through
-              corporate finance, audit, and management control.
+              Mon parcours a commencé dans les salles de classe de Tanger, face aux livres
+              comptables et aux dossiers d'audit. Les chiffres m'ont fascinée — non pas comme
+              des données, mais comme le langage qu'une entreprise utilise pour se raconter.
+              À l'INSEEC Grande École, j'ai approfondi cette maîtrise à travers la finance
+              d'entreprise, l'audit et le contrôle de gestion.
             </p>
           </Reveal>
           <Reveal delay={0.2}>
             <p>
-              Today I am extending that foundation with the MSc <span className="text-foreground font-medium">Data Management & AI for Business</span> —
-              learning to interrogate data with the same rigor I once reserved for trial balances.
-              My ambition: become a consultant who designs the bridge between finance teams and the
-              models that augment them.
+              Aujourd'hui, j'élargis cette base avec le MSc <span className="text-foreground font-medium">Data Management & AI for Business</span> —
+              apprendre à interroger la donnée avec la même rigueur que je réservais autrefois
+              aux balances comptables. Mon ambition : devenir consultante et bâtir le pont entre
+              les équipes finance et les modèles qui les augmentent.
             </p>
           </Reveal>
         </div>
@@ -200,23 +189,23 @@ export function About() {
 
 const education = [
   {
-    year: "2025 — Now",
+    year: "2025 — Aujourd'hui",
     title: "MSc Finance, Audit & Contrôle · Data Management & AI",
     place: "INSEEC Grande École — Paris",
-    body: "Financial Audit · Internal Control · Corporate Finance · Management Control · Accounting · Data for Business.",
+    body: "Audit financier · Contrôle interne · Finance d'entreprise · Contrôle de gestion · Comptabilité · Data pour le business.",
     highlight: true,
   },
   {
     year: "2022 — 2025",
     title: "Bachelor — Finance",
     place: "INSEEC Grande École — Bordeaux / London",
-    body: "International curriculum across two campuses with a focus on corporate finance fundamentals.",
+    body: "Cursus international sur deux campus, centré sur les fondamentaux de la finance d'entreprise.",
   },
   {
     year: "2020 — 2022",
-    title: "Preparatory Classes",
-    place: "Esprit Classes Prépa — Tangier",
-    body: "Intensive analytical and quantitative training preparing for top business school admissions.",
+    title: "Classes préparatoires",
+    place: "Esprit Classes Prépa — Tanger",
+    body: "Formation analytique et quantitative intensive en vue de l'admission aux grandes écoles de commerce.",
   },
 ];
 
@@ -224,9 +213,9 @@ export function Education() {
   return (
     <section id="education" className="py-28 md:py-36 bg-secondary/40">
       <div className="mx-auto max-w-5xl px-6">
-        <Reveal><SectionLabel icon={GraduationCap}>Education</SectionLabel></Reveal>
+        <Reveal><SectionLabel icon={GraduationCap}>Formation</SectionLabel></Reveal>
         <Reveal delay={0.05}>
-          <h2 className="mt-6 text-4xl md:text-5xl font-normal">A focused academic trajectory.</h2>
+          <h2 className="mt-6 text-4xl md:text-5xl font-normal">Une trajectoire académique exigeante.</h2>
         </Reveal>
 
         <div className="mt-16 relative">
@@ -257,36 +246,36 @@ export function Education() {
 
 const experience = [
   {
-    role: "Audit & Accounting Intern",
+    role: "Stagiaire Audit & Comptabilité",
     company: "Expertise El Garti",
-    location: "Tangier",
+    location: "Tanger",
     icon: ShieldCheck,
     bullets: [
-      "Audit procedures across customer & supplier cycles",
-      "Treasury analysis and bank reconciliations",
-      "Preparation of working papers & financial controls",
+      "Procédures d'audit sur les cycles clients et fournisseurs",
+      "Analyse de trésorerie et rapprochements bancaires",
+      "Préparation des dossiers de travail et contrôles financiers",
     ],
   },
   {
-    role: "Accounting Intern",
+    role: "Stagiaire Comptabilité",
     company: "Maghreb Tadbir",
-    location: "Tangier",
+    location: "Tanger",
     icon: Building2,
     bullets: [
-      "Daily accounting entries and ledger maintenance",
-      "Customer and supplier account management",
-      "Bank reconciliations and month-end support",
+      "Saisie comptable quotidienne et tenue des journaux",
+      "Gestion des comptes clients et fournisseurs",
+      "Rapprochements bancaires et appui aux clôtures mensuelles",
     ],
   },
   {
-    role: "Banking Intern",
+    role: "Stagiaire Banque",
     company: "Attijariwafa Bank",
-    location: "Tangier",
+    location: "Tanger",
     icon: Briefcase,
     bullets: [
-      "Customer service and front-desk operations",
-      "Administrative banking operations",
-      "Client file verification and compliance support",
+      "Accueil clientèle et opérations de guichet",
+      "Opérations bancaires administratives",
+      "Vérification des dossiers clients et appui conformité",
     ],
   },
 ];
@@ -295,9 +284,9 @@ export function Experience() {
   return (
     <section id="experience" className="py-28 md:py-36">
       <div className="mx-auto max-w-6xl px-6">
-        <Reveal><SectionLabel icon={Briefcase}>Experience</SectionLabel></Reveal>
+        <Reveal><SectionLabel icon={Briefcase}>Expérience</SectionLabel></Reveal>
         <Reveal delay={0.05}>
-          <h2 className="mt-6 text-4xl md:text-5xl font-normal">Field-tested in finance & audit.</h2>
+          <h2 className="mt-6 text-4xl md:text-5xl font-normal">Éprouvée sur le terrain de la finance et de l'audit.</h2>
         </Reveal>
         <div className="mt-14 grid md:grid-cols-3 gap-5">
           {experience.map((x, i) => (
@@ -335,27 +324,27 @@ const skillGroups = [
     title: "Finance",
     icon: TrendingUp,
     items: [
-      ["Financial Audit", 90],
-      ["Internal Control", 85],
-      ["Budget Control", 80],
-      ["Financial Analysis", 88],
-      ["Business Performance", 78],
+      ["Audit financier", 90],
+      ["Contrôle interne", 85],
+      ["Contrôle budgétaire", 80],
+      ["Analyse financière", 88],
+      ["Performance de l'entreprise", 78],
     ] as [string, number][],
   },
   {
     title: "Data & Analytics",
     icon: BarChart3,
     items: [
-      ["Excel — Advanced", 95],
+      ["Excel — Avancé", 95],
       ["Power BI", 82],
       ["Python", 70],
       ["VBA", 75],
-      ["Statistics", 72],
-      ["Data Visualization", 80],
+      ["Statistiques", 72],
+      ["Visualisation de données", 80],
     ] as [string, number][],
   },
   {
-    title: "ERP & Tools",
+    title: "ERP & Outils",
     icon: Database,
     items: ["Oracle", "Sage", "CEGID", "Salesforce"],
   },
@@ -363,20 +352,20 @@ const skillGroups = [
     title: "Soft Skills",
     icon: Brain,
     items: [
-      "Analytical Thinking",
-      "Attention to Detail",
-      "Organization",
-      "Reliability",
+      "Esprit analytique",
+      "Souci du détail",
+      "Sens de l'organisation",
+      "Fiabilité",
       "Communication",
-      "Problem Solving",
+      "Résolution de problèmes",
     ],
   },
 ];
 
 const languages = [
-  ["French", "C2", 100],
-  ["English", "C1", 85],
-  ["Arabic", "Native", 100],
+  ["Français", "C2", 100],
+  ["Anglais", "C1", 85],
+  ["Arabe", "Langue maternelle", 100],
 ] as [string, string, number][];
 
 function Bar({ value }: { value: number }) {
@@ -397,9 +386,9 @@ export function Skills() {
   return (
     <section id="skills" className="py-28 md:py-36 bg-secondary/40">
       <div className="mx-auto max-w-6xl px-6">
-        <Reveal><SectionLabel icon={Code2}>Capabilities</SectionLabel></Reveal>
+        <Reveal><SectionLabel icon={Code2}>Compétences</SectionLabel></Reveal>
         <Reveal delay={0.05}>
-          <h2 className="mt-6 text-4xl md:text-5xl font-normal">A dual toolkit.</h2>
+          <h2 className="mt-6 text-4xl md:text-5xl font-normal">Une double expertise.</h2>
         </Reveal>
 
         <div className="mt-14 grid md:grid-cols-2 gap-5">
@@ -449,7 +438,7 @@ export function Skills() {
           <div className="mt-5 rounded-3xl glass p-7">
             <div className="flex items-center gap-3">
               <Languages className="h-5 w-5 text-[var(--electric)]" />
-              <h3 className="text-lg font-medium" style={{ fontFamily: "var(--font-sans)" }}>Languages</h3>
+              <h3 className="text-lg font-medium" style={{ fontFamily: "var(--font-sans)" }}>Langues</h3>
             </div>
             <div className="mt-6 grid sm:grid-cols-3 gap-6">
               {languages.map(([name, lvl, v]) => (
@@ -486,20 +475,20 @@ function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
 }
 
 const stats = [
-  { value: 5, suffix: "+", label: "Years of study" },
-  { value: 3, suffix: "", label: "Internships" },
-  { value: 4, suffix: "", label: "Business domains" },
-  { value: 10, suffix: "+", label: "Financial tools" },
-  { value: 2, suffix: "", label: "Programming languages" },
+  { value: 5, suffix: "+", label: "Années d'études" },
+  { value: 3, suffix: "", label: "Stages" },
+  { value: 4, suffix: "", label: "Domaines métier" },
+  { value: 10, suffix: "+", label: "Outils financiers" },
+  { value: 2, suffix: "", label: "Langages de programmation" },
 ];
 
 export function Achievements() {
   return (
     <section className="py-28 md:py-36">
       <div className="mx-auto max-w-6xl px-6">
-        <Reveal><SectionLabel icon={Award}>By the numbers</SectionLabel></Reveal>
+        <Reveal><SectionLabel icon={Award}>En chiffres</SectionLabel></Reveal>
         <Reveal delay={0.05}>
-          <h2 className="mt-6 text-4xl md:text-5xl font-normal">Quantified momentum.</h2>
+          <h2 className="mt-6 text-4xl md:text-5xl font-normal">Une dynamique mesurée.</h2>
         </Reveal>
         <div className="mt-14 grid grid-cols-2 md:grid-cols-5 gap-4">
           {stats.map((s, i) => (
@@ -521,12 +510,12 @@ export function Achievements() {
 /* ─────────────────────────── CAREER GOALS ─────────────────────────── */
 
 const goals = [
-  { icon: BarChart3, title: "Business Intelligence", body: "Building dashboards that translate financial signals into board-level clarity." },
-  { icon: LineChart, title: "Data Analytics", body: "From raw ledgers to predictive insight — operationalizing analysis at scale." },
-  { icon: Brain, title: "Machine Learning for Business", body: "Applying ML to forecasting, risk scoring, and audit anomaly detection." },
-  { icon: Database, title: "Financial Data", body: "Modeling clean, governed pipelines from ERPs to analytics layers." },
-  { icon: Target, title: "Decision Making", body: "Connecting models to the strategic questions that actually move companies." },
-  { icon: Sparkles, title: "Digital Transformation", body: "Helping finance functions adopt AI without losing rigor or trust." },
+  { icon: BarChart3, title: "Business Intelligence", body: "Concevoir des tableaux de bord qui traduisent les signaux financiers en lecture stratégique pour la direction." },
+  { icon: LineChart, title: "Data Analytics", body: "Des grands livres bruts à l'insight prédictif — opérationnaliser l'analyse à grande échelle." },
+  { icon: Brain, title: "Machine Learning appliqué", body: "Mettre le ML au service de la prévision, du scoring de risque et de la détection d'anomalies d'audit." },
+  { icon: Database, title: "Données financières", body: "Modéliser des pipelines propres et gouvernés, des ERP aux couches analytiques." },
+  { icon: Target, title: "Prise de décision", body: "Relier les modèles aux questions stratégiques qui font réellement avancer les entreprises." },
+  { icon: Sparkles, title: "Transformation digitale", body: "Aider les fonctions finance à adopter l'IA sans renoncer à la rigueur ni à la confiance." },
 ];
 
 export function Goals() {
@@ -536,13 +525,13 @@ export function Goals() {
         <Reveal><SectionLabel icon={Target}>Vision</SectionLabel></Reveal>
         <Reveal delay={0.05}>
           <h2 className="mt-6 text-4xl md:text-6xl font-normal leading-tight">
-            The next chapter: <span className="text-gradient italic">finance, augmented.</span>
+            Le prochain chapitre : <span className="text-gradient italic">la finance, augmentée.</span>
           </h2>
         </Reveal>
         <Reveal delay={0.1}>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            Six directions shaping the work I want to do as a consultant in the intersection of
-            finance and artificial intelligence.
+            Six directions qui dessinent le métier que je souhaite exercer en tant que consultante,
+            à la croisée de la finance et de l'intelligence artificielle.
           </p>
         </Reveal>
 
@@ -576,20 +565,20 @@ export function Contact() {
             <Reveal><SectionLabel icon={Mail}>Contact</SectionLabel></Reveal>
             <Reveal delay={0.05}>
               <h2 className="mt-6 text-4xl md:text-6xl font-normal leading-[1.05]">
-                Let's build the <span className="text-gradient italic">next step</span> together.
+                Construisons la <span className="text-gradient italic">prochaine étape</span> ensemble.
               </h2>
             </Reveal>
             <Reveal delay={0.15}>
               <p className="mt-6 text-muted-foreground max-w-md leading-relaxed">
-                Actively seeking a one-year apprenticeship starting September 2025 in Finance,
-                Audit, BI or Data Analytics. Open to conversations.
+                Activement à la recherche d'une alternance d'un an à partir de septembre 2025
+                en Finance, Audit, BI ou Data Analytics. Ouverte à tout échange.
               </p>
             </Reveal>
             <Reveal delay={0.25}>
               <ul className="mt-8 space-y-3 text-sm">
-                <li className="flex items-center gap-3"><Mail className="h-4 w-4 text-[var(--electric)]" /> your.email@example.com</li>
+                <li className="flex items-center gap-3"><Mail className="h-4 w-4 text-[var(--electric)]" /> nada.boukhayar@example.com</li>
                 <li className="flex items-center gap-3"><Phone className="h-4 w-4 text-[var(--electric)]" /> +33 6 00 00 00 00</li>
-                <li className="flex items-center gap-3"><Linkedin className="h-4 w-4 text-[var(--electric)]" /> linkedin.com/in/your-handle</li>
+                <li className="flex items-center gap-3"><Linkedin className="h-4 w-4 text-[var(--electric)]" /> linkedin.com/in/nada-boukhayar</li>
                 <li className="flex items-center gap-3"><MapPin className="h-4 w-4 text-[var(--electric)]" /> Paris, France</li>
               </ul>
             </Reveal>
@@ -597,16 +586,16 @@ export function Contact() {
 
           <Reveal delay={0.1}>
             <form
-              onSubmit={(e) => { e.preventDefault(); alert("Thanks! This is a demo form."); }}
+              onSubmit={(e) => { e.preventDefault(); alert("Merci ! Ceci est un formulaire de démonstration."); }}
               className="glass rounded-3xl p-7 shadow-elegant"
             >
               <div className="grid sm:grid-cols-2 gap-4">
                 <label className="block">
-                  <span className="text-xs uppercase tracking-[0.15em] text-muted-foreground">Name</span>
+                  <span className="text-xs uppercase tracking-[0.15em] text-muted-foreground">Nom</span>
                   <input required className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors" />
                 </label>
                 <label className="block">
-                  <span className="text-xs uppercase tracking-[0.15em] text-muted-foreground">Company</span>
+                  <span className="text-xs uppercase tracking-[0.15em] text-muted-foreground">Entreprise</span>
                   <input className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors" />
                 </label>
               </div>
@@ -619,7 +608,7 @@ export function Contact() {
                 <textarea required rows={4} className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors resize-none" />
               </label>
               <button type="submit" className="mt-6 w-full inline-flex items-center justify-center gap-2 rounded-full bg-[var(--navy)] px-6 py-3.5 text-sm font-medium text-[var(--primary-foreground)] shadow-elegant hover:shadow-glow transition-all">
-                Send message <ArrowRight className="h-4 w-4" />
+                Envoyer le message <ArrowRight className="h-4 w-4" />
               </button>
             </form>
           </Reveal>
@@ -637,9 +626,9 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
           <span className="inline-block h-2 w-2 rounded-full bg-[var(--electric)]" />
-          <span>Portfolio · Finance × Data & AI</span>
+          <span>Nada Boukhayar · Finance × Data & IA</span>
         </div>
-        <div>© {new Date().getFullYear()} — Crafted with intent.</div>
+        <div>© {new Date().getFullYear()} — Conçu avec intention.</div>
       </div>
     </footer>
   );
