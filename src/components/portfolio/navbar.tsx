@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ThemeToggle } from "./theme-toggle";

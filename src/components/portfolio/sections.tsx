@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { motion, useInView, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useEffect, useRef } from "react";
 import {
@@ -73,34 +74,39 @@ export function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal>
-          <SectionLabel icon={Sparkles}>Ouverte à une alternance d'un an · 2025</SectionLabel>
+          <SectionLabel icon={Sparkles}>Ouverte à une alternance d'un an · 2026</SectionLabel>
         </Reveal>
 
         <div className="mt-8 grid md:grid-cols-[1.4fr_1fr] gap-12 items-center">
           <div>
             <Reveal delay={0.05}>
               <h1 className="text-5xl md:text-7xl leading-[1.02] font-normal">
-                <span className="text-foreground">Rigueur financière.</span>
+                              
                 <br />
-                <span className="text-gradient italic">Intuition data.</span>
+                              <span className="text-gradient italic">Finance, Audit et Contrôle.</span>
               </h1>
             </Reveal>
             <Reveal delay={0.15}>
               <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
-                MSc Data Management & AI for Business — au croisement de la rigueur de l'audit
-                financier et de la puissance analytique des outils data modernes. Concevoir des
-                systèmes de décision qui transforment les chiffres en stratégie.
+                              Étudiante en dernière année de Master Finance, Audit et Contrôle
+
+                              À la recherche d'une alternance pour mettre à profit mes compétences en finance,
+                              audit et analyse de données, tout en développant mon expertise en Data Management
+                              et en Intelligence Artificielle appliquée au Business.
+
               </p>
             </Reveal>
             <Reveal delay={0.25}>
               <div className="mt-9 flex flex-wrap items-center gap-3">
                 <a
-                  href="#contact"
-                  className="group inline-flex items-center gap-2 rounded-full bg-[var(--navy)] px-6 py-3.5 text-sm font-medium text-[var(--primary-foreground)] shadow-elegant hover:shadow-glow transition-all"
-                >
-                  <Download className="h-4 w-4" />
-                  Télécharger le CV
-                </a>
+                    href="/Boukhayar_Nada_CV.pdf"
+                    download="Boukhayar Nada CV.pdf"
+                    className="group inline-flex items-center gap-2 rounded-full bg-[var(--navy)] px-6 py-3.5 text-sm font-medium text-[var(--primary-foreground)] shadow-elegant hover:shadow-glow transition-all"
+                 >
+                    <Download className="h-4 w-4" />
+                    Télécharger le CV
+                              </a>
+
                 <a
                   href="#contact"
                   className="group inline-flex items-center gap-2 rounded-full glass px-6 py-3.5 text-sm font-medium hover:translate-y-[-2px] transition-all"
@@ -164,19 +170,26 @@ export function About() {
         <div className="mt-10 grid md:grid-cols-2 gap-10 text-lg leading-relaxed text-muted-foreground">
           <Reveal delay={0.1}>
             <p>
-              Mon parcours a commencé dans les salles de classe de Tanger, face aux livres
-              comptables et aux dossiers d'audit. Les chiffres m'ont fascinée — non pas comme
-              des données, mais comme le langage qu'une entreprise utilise pour se raconter.
-              À l'INSEEC Grande École, j'ai approfondi cette maîtrise à travers la finance
-              d'entreprise, l'audit et le contrôle de gestion.
+                          Au cours de mon parcours académique et de mes expériences en cabinet d'expertise comptable ainsi qu'en banque,
+                          j'ai acquis de solides compétences en audit financier, comptabilité, contrôle interne et analyse financière.
+                          Ces expériences m'ont permis de développer une approche rigoureuse, un esprit d'analyse et un réel sens de l'organisation.
+
+                        
+                          Aujourd'hui, je souhaite enrichir cette expertise en développant des compétences en <span className="text-foreground font-medium">Data Management & AI for Business</span> —
+                          La maîtrise d'outils tels qu'Excel avancé, Power BI,
+                          Python et VBA me permet d'allier les fondamentaux de la finance à l'analyse de données pour contribuer à une prise de décision plus efficace.
             </p>
           </Reveal>
           <Reveal delay={0.2}>
             <p>
-              Aujourd'hui, j'élargis cette base avec le MSc <span className="text-foreground font-medium">Data Management & AI for Business</span> —
-              apprendre à interroger la donnée avec la même rigueur que je réservais autrefois
-              aux balances comptables. Mon ambition : devenir consultante et bâtir le pont entre
-              les équipes finance et les modèles qui les augmentent.
+                          
+
+                          Curieuse, motivée et toujours désireuse d'apprendre,
+                          je souhaite évoluer dans un environnement stimulant
+                          où je pourrai participer à des projets à forte valeur ajoutée.
+                          Mon ambition est de construire une carrière à l'intersection de la finance,
+                          de la data et de l'intelligence artificielle, en accompagnant les entreprises d
+                          ans leurs enjeux de performance et de transformation.
             </p>
           </Reveal>
         </div>
@@ -576,36 +589,65 @@ export function Contact() {
             </Reveal>
             <Reveal delay={0.25}>
               <ul className="mt-8 space-y-3 text-sm">
-                <li className="flex items-center gap-3"><Mail className="h-4 w-4 text-[var(--electric)]" /> nada.boukhayar@example.com</li>
-                <li className="flex items-center gap-3"><Phone className="h-4 w-4 text-[var(--electric)]" /> +33 6 00 00 00 00</li>
-                <li className="flex items-center gap-3"><Linkedin className="h-4 w-4 text-[var(--electric)]" /> linkedin.com/in/nada-boukhayar</li>
+                <li className="flex items-center gap-3"><Mail className="h-4 w-4 text-[var(--electric)]" /> boukhayarnada@egmail.com</li>
+                <li className="flex items-center gap-3"><Phone className="h-4 w-4 text-[var(--electric)]" /> +33 7 65 16 46 58</li>
+                              <li className="flex items-center gap-3">
+                                  <Linkedin className="h-4 w-4 text-[var(--electric)]" />
+                                  <a
+                                      href="https://www.linkedin.com/in/nada-boukhayar-12252a261"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="hover:text-[var(--electric)] transition-colors underline"
+                                  >
+                                      linkedin.com/in/nada-boukhayar-12252a261
+                                  </a>
+                              </li>
                 <li className="flex items-center gap-3"><MapPin className="h-4 w-4 text-[var(--electric)]" /> Paris, France</li>
               </ul>
             </Reveal>
           </div>
 
           <Reveal delay={0.1}>
-            <form
-              onSubmit={(e) => { e.preventDefault(); alert("Merci ! Ceci est un formulaire de démonstration."); }}
-              className="glass rounded-3xl p-7 shadow-elegant"
-            >
+             <form
+                          action="https://formspree.io/f/mykqwdyq"
+                          method="POST"
+                          className="glass rounded-3xl p-7 shadow-elegant"
+             >
+            
               <div className="grid sm:grid-cols-2 gap-4">
                 <label className="block">
                   <span className="text-xs uppercase tracking-[0.15em] text-muted-foreground">Nom</span>
-                  <input required className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors" />
+                                  <input
+                                      name="name"
+                                      required
+                                      className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors"
+                                  />
                 </label>
                 <label className="block">
                   <span className="text-xs uppercase tracking-[0.15em] text-muted-foreground">Entreprise</span>
-                  <input className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors" />
+                                  <input
+                                      name="company"
+                                      className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors"
+                                  />
                 </label>
               </div>
               <label className="block mt-4">
                 <span className="text-xs uppercase tracking-[0.15em] text-muted-foreground">Email</span>
-                <input required type="email" className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors" />
+                              <input
+                                  name="email"
+                                  type="email"
+                                  required
+                                  className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors"
+                              />
               </label>
               <label className="block mt-4">
                 <span className="text-xs uppercase tracking-[0.15em] text-muted-foreground">Message</span>
-                <textarea required rows={4} className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors resize-none" />
+                              <textarea
+                                  name="message"
+                                  rows={4}
+                                  required
+                                  className="mt-1.5 w-full rounded-xl bg-background/60 border border-border px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--electric)] transition-colors resize-none"
+                              />
               </label>
               <button type="submit" className="mt-6 w-full inline-flex items-center justify-center gap-2 rounded-full bg-[var(--navy)] px-6 py-3.5 text-sm font-medium text-[var(--primary-foreground)] shadow-elegant hover:shadow-glow transition-all">
                 Envoyer le message <ArrowRight className="h-4 w-4" />
