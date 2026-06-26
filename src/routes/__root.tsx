@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Portfolio of a Finance, Audit & Data Analytics student transitioning toward Data Management & AI for Business. Seeking a one-year apprenticeship." },
       { name: "author", content: "Portfolio" },
       { property: "og:title", content: "Portfolio — Finance × Data & AI" },
-      { property: "og:description", content: "From Finance & Audit to Data & AI — a premium portfolio." },
+      { property: "og:description", content: "Portfolio of a Finance, Audit & Data Analytics student transitioning toward Data Management & AI for Business. Seeking a one-year apprenticeship." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Portfolio — Finance × Data & AI" },
+      { name: "twitter:description", content: "Portfolio of a Finance, Audit & Data Analytics student transitioning toward Data Management & AI for Business. Seeking a one-year apprenticeship." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cccdaca2-52f6-46a2-abb7-2f989f6d9d73/id-preview-3e29ef0a--b97f8831-f3fb-44b2-a87f-6e3080eba1b3.lovable.app-1782492500024.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cccdaca2-52f6-46a2-abb7-2f989f6d9d73/id-preview-3e29ef0a--b97f8831-f3fb-44b2-a87f-6e3080eba1b3.lovable.app-1782492500024.png" },
     ],
     links: [
       {
