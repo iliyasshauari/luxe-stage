@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { ThemeToggle } from "./theme-toggle";
 
 const links = [
-  { href: "#about", label: "About" },
-  { href: "#education", label: "Education" },
-  { href: "#experience", label: "Experience" },
-  { href: "#skills", label: "Skills" },
+  { href: "#about", label: "À propos" },
+  { href: "#education", label: "Formation" },
+  { href: "#experience", label: "Expérience" },
+  { href: "#skills", label: "Compétences" },
   { href: "#goals", label: "Vision" },
   { href: "#contact", label: "Contact" },
 ];
@@ -31,7 +31,7 @@ export function Navbar() {
         <div className={`glass flex items-center justify-between rounded-full px-5 py-2.5 transition-all ${scrolled ? "shadow-elegant" : ""}`}>
           <a href="#top" className="flex items-center gap-2 font-medium tracking-tight">
             <span className="inline-block h-2.5 w-2.5 rounded-full bg-[var(--electric)] shadow-glow" />
-            <span>Yasmine.B</span>
+            <span>Nada Boukhayar</span>
           </a>
           <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
             {links.map((l) => (
@@ -46,7 +46,7 @@ export function Navbar() {
               href="#contact"
               className="hidden sm:inline-flex items-center rounded-full bg-[var(--navy)] px-4 py-2 text-xs font-medium text-[var(--primary-foreground)] hover:opacity-90 transition"
             >
-              Get in touch
+              Me contacter
             </a>
           </div>
         </div>
