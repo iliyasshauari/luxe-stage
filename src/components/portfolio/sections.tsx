@@ -437,7 +437,7 @@ const skillGroups = [
 
 const languages = [
   ["Français", "C2", 100],
-  ["Anglais", "C2", 85],
+  ["Anglais", "C2", 100],
   ["Arabe", "Langue maternelle", 100],
 ] as [string, string, number][];
 
