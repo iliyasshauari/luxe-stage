@@ -74,7 +74,7 @@ export function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal>
-          <SectionLabel icon={Sparkles}>Ouverte à une alternance d'un an · 2026</SectionLabel>
+          <SectionLabel icon={Sparkles}>Ouverte à un stage  · 2026</SectionLabel>
         </Reveal>
 
         <div className="mt-8 grid md:grid-cols-[1.4fr_1fr] gap-12 items-center">
@@ -90,7 +90,7 @@ export function Hero() {
               <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
                               Étudiante en dernière année de Master Finance, Audit et Contrôle
 
-                              À la recherche d'une alternance pour mettre à profit mes compétences en finance,
+                              À la recherche d'un stage pour mettre à profit mes compétences en finance,
                               audit et analyse de données, tout en développant mon expertise en Data Management
                               et en Intelligence Artificielle appliquée au Business.
 
@@ -126,29 +126,21 @@ export function Hero() {
           </div>
 
           {/* Portrait card */}
-          <Reveal delay={0.2}>
-            <div className="relative mx-auto max-w-sm">
-              <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[var(--electric)]/30 to-[var(--emerald-accent)]/30 blur-2xl" />
-              <div className="relative glass rounded-[2rem] p-3 shadow-elegant">
-                <div className="relative aspect-[4/5] rounded-[1.5rem] bg-gradient-to-br from-[var(--navy)] to-[var(--electric)] flex items-end p-6 overflow-hidden">
-                  <svg className="absolute inset-0 h-full w-full opacity-20" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                        <circle cx="2" cy="2" r="1" fill="white" />
-                      </pattern>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#dots)" />
-                  </svg>
-                  <div className="relative text-white">
-                    <div className="text-xs uppercase tracking-[0.2em] opacity-80">Portfolio</div>
-                    <div className="mt-1 text-2xl font-medium" style={{ fontFamily: "var(--font-display)" }}>
-                      Finance × Data
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Reveal>
+                  <Reveal delay={0.2}>
+                      <div className="relative mx-auto max-w-sm">
+                          <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[var(--electric)]/30 to-[var(--emerald-accent)]/30 blur-2xl" />
+
+                          <div className="relative glass rounded-[2rem] p-3 shadow-elegant">
+                              <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem]">
+                                  <img
+                                      src="/portfolio_nada.jpeg"
+                                      alt="Nada Boukhayar"
+                                      className="w-full h-full object-cover"
+                                  />
+                              </div>
+                          </div>
+                      </div>
+                  </Reveal>
         </div>
       </div>
     </section>
@@ -583,7 +575,7 @@ export function Contact() {
             </Reveal>
             <Reveal delay={0.15}>
               <p className="mt-6 text-muted-foreground max-w-md leading-relaxed">
-                Activement à la recherche d'une alternance d'un an à partir de septembre 2025
+                Activement à la recherche d'un stage à partir de juillet 2026
                 en Finance, Audit, BI ou Data Analytics. Ouverte à tout échange.
               </p>
             </Reveal>
