@@ -645,12 +645,12 @@ export function Contact() {
             <Reveal delay={0.15}>
               <p className="mt-6 text-muted-foreground max-w-md leading-relaxed">
                 Activement à la recherche d'un stage à partir de juillet 2026
-                en Finance, Audit, BI ou Data Analytics. Ouverte à tout échange.
+                en Finance, Audit et contrôle. Ouverte à tout échange.
               </p>
             </Reveal>
             <Reveal delay={0.25}>
               <ul className="mt-8 space-y-3 text-sm">
-                <li className="flex items-center gap-3"><Mail className="h-4 w-4 text-[var(--electric)]" /> boukhayarnada@egmail.com</li>
+                <li className="flex items-center gap-3"><Mail className="h-4 w-4 text-[var(--electric)]" /> boukhayarnada@gmail.com</li>
                 <li className="flex items-center gap-3"><Phone className="h-4 w-4 text-[var(--electric)]" /> +33 7 65 16 46 58</li>
                               <li className="flex items-center gap-3">
                                   <Linkedin className="h-4 w-4 text-[var(--electric)]" />
@@ -729,7 +729,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
           <span className="inline-block h-2 w-2 rounded-full bg-[var(--electric)]" />
-          <span>Nada Boukhayar · Finance × Data & IA</span>
+          <span>Nada Boukhayar · Finance × Audit</span>
         </div>
         <div>© {new Date().getFullYear()} </div>
       </div>
