@@ -88,18 +88,17 @@ export function Hero() {
             </Reveal>
             <Reveal delay={0.15}>
               <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
-                              Étudiante en dernière année de Master Finance, Audit et Contrôle
-
-                              À la recherche d'un stage pour mettre à profit mes compétences en finance,
-                              audit et analyse de données, tout en développant mon expertise en Data Management
-                              et en Intelligence Artificielle appliquée au Business.
-
+                              Étudiante en dernière année de Master Finance,
+                              Audit et Contrôle de gestion, je recherche un stage
+                              de 4 mois afin de mettre à profit mes compétences en finance,
+                              audit et contrôle de gestion, tout en développant mon expertise
+                              en analyse de données.
               </p>
             </Reveal>
             <Reveal delay={0.25}>
               <div className="mt-9 flex flex-wrap items-center gap-3">
                 <a
-                    href="/Boukhayar_Nada_CV.pdf"
+                    href="/Boukhayar_Nada_Stage.pdf"
                     download="Boukhayar Nada CV.pdf"
                     className="group inline-flex items-center gap-2 rounded-full bg-[var(--navy)] px-6 py-3.5 text-sm font-medium text-[var(--primary-foreground)] shadow-elegant hover:shadow-glow transition-all"
                  >
@@ -235,32 +234,22 @@ export function About() {
         <Reveal><SectionLabel icon={Sparkles}>À propos</SectionLabel></Reveal>
         <Reveal delay={0.05}>
           <h2 className="mt-6 text-4xl md:text-6xl font-normal leading-[1.05]">
-            Des bilans comptables <span className="text-gradient italic">aux systèmes intelligents.</span>
+                      Des chiffres à  <span className="text-gradient italic">la performance..</span>
           </h2>
         </Reveal>
         <div className="mt-10 grid md:grid-cols-2 gap-10 text-lg leading-relaxed text-muted-foreground">
           <Reveal delay={0.1}>
             <p>
-                          Au cours de mon parcours académique et de mes expériences en cabinet d'expertise comptable ainsi qu'en banque,
-                          j'ai acquis de solides compétences en audit financier, comptabilité, contrôle interne et analyse financière.
-                          Ces expériences m'ont permis de développer une approche rigoureuse, un esprit d'analyse et un réel sens de l'organisation.
+                          Au cours de mon parcours académique et de mes expériences en cabinet d’expertise comptable ainsi qu’en banque, j’ai développé de solides compétences en audit financier, contrôle de gestion, comptabilité, contrôle interne et analyse financière. J’ai notamment participé à l’analyse des états financiers, à la vérification des pièces comptables, aux tests d’audit, au suivi budgétaire, à l’analyse des écarts et à l’élaboration de tableaux de bord. Ces expériences m’ont permis de renforcer ma rigueur, mon esprit d’analyse, mon sens de l’organisation et ma capacité à identifier les anomalies et les leviers d’amélioration.
 
-                        
-                          Aujourd'hui, je souhaite enrichir cette expertise en développant des compétences en <span className="text-foreground font-medium">Data Management & AI for Business</span> —
-                          La maîtrise d'outils tels qu'Excel avancé, Power BI,
-                          Python et VBA me permet d'allier les fondamentaux de la finance à l'analyse de données pour contribuer à une prise de décision plus efficace.
             </p>
           </Reveal>
           <Reveal delay={0.2}>
             <p>
                           
 
-                          Curieuse, motivée et toujours désireuse d'apprendre,
-                          je souhaite évoluer dans un environnement stimulant
-                          où je pourrai participer à des projets à forte valeur ajoutée.
-                          Mon ambition est de construire une carrière à l'intersection de la finance,
-                          de la data et de l'intelligence artificielle, en accompagnant les entreprises d
-                          ans leurs enjeux de performance et de transformation.
+                          La maîtrise d’outils tels qu’Excel, Power BI, Python ainsi que des ERP comme SAP, Oracle, Sage et Quadra me permet d’exploiter efficacement les données financières et de contribuer au pilotage de la performance. Curieuse, motivée et appréciant le travail en équipe, je souhaite évoluer dans un environnement stimulant où je pourrai mettre mes compétences au service de missions d’audit, de finance et de contrôle de gestion à forte valeur ajoutée.
+
             </p>
           </Reveal>
         </div>
@@ -272,25 +261,25 @@ export function About() {
 /* ──────────────────────────── EDUCATION ──────────────────────────── */
 
 const education = [
+ 
   {
-    year: "2025 — Aujourd'hui",
-    title: "MSc Finance, Audit & Contrôle · Data Management & AI",
-    place: "INSEEC Grande École — Paris",
-    body: "Audit financier · Contrôle interne · Finance d'entreprise · Contrôle de gestion · Comptabilité · Data pour le business.",
-    highlight: true,
-  },
-  {
-    year: "2022 — 2025",
-    title: "Bachelor — Finance",
+    year: "2023 — 2026",
+    title: "Master — Finance",
     place: "INSEEC Grande École — Bordeaux / London",
     body: "Cursus international sur deux campus, centré sur les fondamentaux de la finance d'entreprise.",
   },
   {
-    year: "2020 — 2022",
+    year: "2021 — 2023",
     title: "Classes préparatoires",
     place: "Esprit Classes Prépa — Tanger",
     body: "Formation analytique et quantitative intensive en vue de l'admission aux grandes écoles de commerce.",
   },
+  {
+   year: "2020 — 2021",
+    title: "Bac science economique",
+    place: "Lixus — Larache",
+  
+    },
 ];
 
 export function Education() {
@@ -330,36 +319,36 @@ export function Education() {
 
 const experience = [
   {
-    role: "Stagiaire Audit & Comptabilité",
+    role: "Stagiaire en Audit et Contrôle de gestion",
     company: "Expertise El Garti",
     location: "Tanger",
     icon: ShieldCheck,
     bullets: [
-      "Procédures d'audit sur les cycles clients et fournisseurs",
-      "Analyse de trésorerie et rapprochements bancaires",
-      "Préparation des dossiers de travail et contrôles financiers",
+      "Participation au suivi budgétaire et à l’analyse des écarts entre les prévisions et les réalisations",
+      "Élaboration et suivi de tableaux de bord financiers",
+      "Collecte et traitement de données pour appuyer le pilotage de la performance",
     ],
   },
   {
-    role: "Stagiaire Comptabilité",
+      role: "Stagiaire en Audit financier",
     company: "Maghreb Tadbir",
     location: "Tanger",
     icon: Building2,
     bullets: [
-      "Saisie comptable quotidienne et tenue des journaux",
-      "Gestion des comptes clients et fournisseurs",
-      "Rapprochements bancaires et appui aux clôtures mensuelles",
+      "Participation aux missions d’audit et aux tests de contrôle des données comptables",
+      "Analyse des états financiers et vérification de la fiabilité des informations comptables",
+      "Identification des anomalies et des axes d’amélioration",
     ],
   },
   {
-    role: "Stagiaire Banque",
+      role: "Stagiaire en Audit interne bancaire",
     company: "Attijariwafa Bank",
     location: "Tanger",
     icon: Briefcase,
     bullets: [
-      "Accueil clientèle et opérations de guichet",
-      "Opérations bancaires administratives",
-      "Vérification des dossiers clients et appui conformité",
+      "Participation aux procédures de contrôle interne et à l’évaluation des risques opérationnels",
+      "Vérification des documents financiers et revue des dossiers clients",
+      "Identification des anomalies et contribution à la préparation des recommandations d’audit",
     ],
   },
 ];
@@ -370,7 +359,7 @@ export function Experience() {
       <div className="mx-auto max-w-6xl px-6">
         <Reveal><SectionLabel icon={Briefcase}>Expérience</SectionLabel></Reveal>
         <Reveal delay={0.05}>
-          <h2 className="mt-6 text-4xl md:text-5xl font-normal">Éprouvée sur le terrain de la finance et de l'audit.</h2>
+                  <h2 className="mt-6 text-4xl md:text-5xl font-normal">Une expérience concrète en finance, audit et contrôle de gestion.</h2>
         </Reveal>
         <div className="mt-14 grid md:grid-cols-3 gap-5">
           {experience.map((x, i) => (
@@ -448,7 +437,7 @@ const skillGroups = [
 
 const languages = [
   ["Français", "C2", 100],
-  ["Anglais", "C1", 85],
+  ["Anglais", "C2", 85],
   ["Arabe", "Langue maternelle", 100],
 ] as [string, string, number][];
 
@@ -594,12 +583,13 @@ export function Achievements() {
 /* ─────────────────────────── CAREER GOALS ─────────────────────────── */
 
 const goals = [
-  { icon: BarChart3, title: "Business Intelligence", body: "Concevoir des tableaux de bord qui traduisent les signaux financiers en lecture stratégique pour la direction." },
-  { icon: LineChart, title: "Data Analytics", body: "Des grands livres bruts à l'insight prédictif — opérationnaliser l'analyse à grande échelle." },
-  { icon: Brain, title: "Machine Learning appliqué", body: "Mettre le ML au service de la prévision, du scoring de risque et de la détection d'anomalies d'audit." },
-  { icon: Database, title: "Données financières", body: "Modéliser des pipelines propres et gouvernés, des ERP aux couches analytiques." },
-  { icon: Target, title: "Prise de décision", body: "Relier les modèles aux questions stratégiques qui font réellement avancer les entreprises." },
-  { icon: Sparkles, title: "Transformation digitale", body: "Aider les fonctions finance à adopter l'IA sans renoncer à la rigueur ni à la confiance." },
+  {
+    icon: BarChart3, title: "Audit financier", body: "Analyser les comptes, vérifier la fiabilité des informations financières et identifier les éventuelles anomalies." },
+  { icon: LineChart, title: "Contrôle de gestion", body: "Suivre les budgets, analyser les écarts et proposer des actions permettant d’améliorer la performance." },
+  { icon: Brain, title: "Analyse financière", body: "Étudier les états financiers et les principaux indicateurs afin d’évaluer la situation et la rentabilité d’une entreprise." },
+  { icon: Database, title: "Contrôle interne", body: "Participer à l’évaluation des procédures, à l’identification des risques et à la sécurisation des opérations." },
+  { icon: Target, title: "Reporting et tableaux de bord", body: "Transformer les données financières en indicateurs clairs pour faciliter le suivi et la prise de décision." },
+  { icon: Sparkles, title: "Optimisation de la performance", body: "Identifier les leviers d’amélioration, de réduction des coûts et d’efficacité au sein des organisations." },
 ];
 
 export function Goals() {
@@ -609,13 +599,13 @@ export function Goals() {
         <Reveal><SectionLabel icon={Target}>Vision</SectionLabel></Reveal>
         <Reveal delay={0.05}>
           <h2 className="mt-6 text-4xl md:text-6xl font-normal leading-tight">
-            Le prochain chapitre : <span className="text-gradient italic">la finance, augmentée.</span>
+                      Le prochain chapitre : <span className="text-gradient italic">piloter la performance financière.</span>
           </h2>
         </Reveal>
         <Reveal delay={0.1}>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            Six directions qui dessinent le métier que je souhaite exercer en tant que consultante,
-            à la croisée de la finance et de l'intelligence artificielle.
+                      Six domaines qui représentent les missions dans lesquelles je souhaite développer mon expertise,
+                      à la croisée de la finance, de l’audit et du contrôle de gestion.
           </p>
         </Reveal>
 
