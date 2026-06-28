@@ -125,19 +125,98 @@ export function Hero() {
             </Reveal>
           </div>
 
-          {/* Portrait card */}
+                  {/* Certifications Card */}
                   <Reveal delay={0.2}>
                       <div className="relative mx-auto max-w-sm">
                           <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[var(--electric)]/30 to-[var(--emerald-accent)]/30 blur-2xl" />
 
-                          <div className="relative glass rounded-[2rem] p-3 shadow-elegant">
-                              <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem]">
-                                  <img
-                                      src="/portfolio_nada.jpeg"
-                                      alt="Nada Boukhayar"
-                                      className="w-full h-full object-cover"
-                                  />
+                          <div className="relative glass rounded-[2rem] p-8 shadow-elegant h-[520px] flex flex-col">
+
+                              <div className="text-center">
+                                  <p className="text-xs uppercase tracking-[0.25em] text-[var(--electric)]">
+                                      Certifications
+                                  </p>
+
+                                  <h3
+                                      className="mt-3 text-3xl font-semibold text-foreground"
+                                      style={{ fontFamily: "var(--font-display)" }}
+                                  >
+                                      Professional Credentials
+                                  </h3>
+
+                                  <p className="mt-2 text-sm text-muted-foreground">
+                                      Certifications internationales validant mes compétences en anglais professionnel et en VBA.
+                                  </p>
                               </div>
+
+                              <div className="mt-8 space-y-5">
+
+                                  {/* TOEIC */}
+                                  <a
+                                      href="https://www.etsglobal.org/fr/en/digital-score-report/42BA841718F5E43708895B5B4AE1BEA36D3452C4D3790A00354858B964E65388bmg2aU8xS3Bic0tzQXVZNGpLeEp3QXpWVFpldjJ6RnZCUW5IL1pPRWlHTWJqVkZY?utm_campaign=sharing_dsr&utm_medium=qr-code&utm_source=dsr"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="block rounded-2xl border border-border bg-background/40 p-5 transition-all hover:border-[var(--electric)] hover:shadow-lg hover:-translate-y-1 cursor-pointer"
+                                  >
+                                      <div className="flex items-center justify-between">
+                                          <span className="text-lg font-semibold">
+                                              🇬🇧 TOEIC
+                                          </span>
+
+                                          <span className="rounded-full bg-[var(--electric)]/15 px-3 py-1 text-sm font-semibold text-[var(--electric)]">
+                                              885 / 990
+                                          </span>
+                                      </div>
+
+                                      <p className="mt-2 text-sm text-muted-foreground">
+                                          Listening & Reading
+                                      </p>
+
+                                      <p className="mt-1 text-xs text-muted-foreground">
+                                          ETS Global • Valide jusqu'en mai 2028
+                                      </p>
+
+                                      <p className="mt-3 text-xs font-medium text-[var(--electric)]">
+                                          Voir le certificat →
+                                      </p>
+                                  </a>
+
+                                  {/* TOSA */}
+                             <a
+                              href="https://www.tosa.org/FR/Index?param=Q0lzNUZkTUw5RnREcXNtb3ZEY21jN1hNN1BhL0IyWDgvQ05zak9YU1dNTFp1TkZoSTdTRnNoZzdVeW9jbUl6VzlBZnJJNGI1THZBU2ZHRWVSNFM0MWc9PTo65Qzd5pXzf3tZAqadDYayFg"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block rounded-2xl border border-border bg-background/40 p-5 transition-all hover:border-[var(--emerald-accent)] hover:shadow-lg hover:-translate-y-1 cursor-pointer"
+                            >
+                              <div className="flex items-center justify-between">
+                                <span className="text-lg font-semibold">
+                                  💻 TOSA VBA
+                                </span>
+
+                                <span className="rounded-full bg-[var(--emerald-accent)]/15 px-3 py-1 text-sm font-semibold text-[var(--emerald-accent)]">
+                                  950 / 1000
+                                </span>
+                              </div>
+
+                              <p className="mt-2 text-sm text-muted-foreground">
+                                Isograd
+                              </p>
+
+                              <p className="mt-1 text-xs text-muted-foreground">
+                                Valide jusqu'en juin 2029
+                              </p>
+
+                              <p className="mt-3 text-xs font-medium text-[var(--emerald-accent)]">
+                                Voir le certificat →
+                              </p>
+                            </a>
+
+                              </div>
+
+                              <div className="mt-auto pt-8">
+                                  
+                              </div>
+
                           </div>
                       </div>
                   </Reveal>
@@ -662,7 +741,7 @@ export function Footer() {
           <span className="inline-block h-2 w-2 rounded-full bg-[var(--electric)]" />
           <span>Nada Boukhayar · Finance × Data & IA</span>
         </div>
-        <div>© {new Date().getFullYear()} — Conçu avec intention.</div>
+        <div>© {new Date().getFullYear()} </div>
       </div>
     </footer>
   );
