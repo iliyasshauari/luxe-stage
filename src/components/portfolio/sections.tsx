@@ -129,7 +129,7 @@ export function Hero() {
                       <div className="relative mx-auto max-w-sm">
                           <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[var(--electric)]/30 to-[var(--emerald-accent)]/30 blur-2xl" />
 
-                          <div className="relative glass rounded-[2rem] p-8 shadow-elegant h-[520px] flex flex-col">
+                          <div className="relative glass rounded-[2rem] p-8 shadow-elegant flex flex-col">
 
                               <div className="text-center">
                                   <p className="text-xs uppercase tracking-[0.25em] text-[var(--electric)]">
