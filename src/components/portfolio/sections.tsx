@@ -74,7 +74,7 @@ export function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal>
-          <SectionLabel icon={Sparkles}>Ouverte à un stage  · 2026</SectionLabel>
+                  <SectionLabel icon={Sparkles}>Disponible immédiatement pour un stage de fin d’études .</SectionLabel>
         </Reveal>
 
         <div className="mt-8 grid md:grid-cols-[1.4fr_1fr] gap-12 items-center">
